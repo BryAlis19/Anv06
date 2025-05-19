@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Imágenes en las Esquinas</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .esquina {
+      position: absolute;
+      width: 300px; 
+      height: 200px;
+    }
+
+    .esquina.superior-izquierda {
+      top: 0;
+      left: 0;
+    }
+
+    .esquina.superior-derecha {
+      top: 0;
+      right: 0;
+    }
+
+    .esquina.inferior-izquierda {
+      bottom: 0;
+      left: 0;
+    }
+
+    .esquina.inferior-derecha {
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="1000006235.jpg" alt="Superior Izquierda" class="esquina superior-izquierda">
+  <img src="1000006310.jpg" alt="Superior Derecha" class="esquina superior-derecha">
+  <img src="1000006942.jpg" alt="Inferior Izquierda" class="esquina inferior-izquierda">
+  <img src="1000003392.jpg" alt="Inferior Derecha" class="esquina inferior-derecha">
+
+</body>
+</html>
